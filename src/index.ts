@@ -1,5 +1,3 @@
-export * from 'react-global-loading';
-
 export * from './modals/base-modal';
 
 export * from './base';

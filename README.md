@@ -2,11 +2,11 @@
 
 ![Example](/assets/example.png)
 
-[![npm version](https://badge.fury.io/js/react-global-loading.svg)][npm_url]
-[![downloads](https://img.shields.io/npm/dt/react-global-loading.svg)][npm_url]
-[![license](https://img.shields.io/npm/l/react-global-loading.svg)][npm_url]
+[![npm version](https://badge.fury.io/js/@redcloudsteam/ui.svg)][npm_url]
+[![downloads](https://img.shields.io/npm/dt/@redcloudsteam/ui.svg)][npm_url]
+[![license](https://img.shields.io/npm/l/@redcloudsteam/ui.svg)][npm_url]
 
-[npm_url]: https://www.npmjs.org/package/react-global-loading
+[npm_url]: https://www.npmjs.org/package/@redcloudsteam/ui
 
 React simple global loading package
 
@@ -15,13 +15,13 @@ React simple global loading package
 With Yarn:
 
 ```bash
-yarn add react-global-loading
+yarn add @redcloudsteam/ui
 ```
 
 With npm:
 
 ```bash
-npm install --save react-global-loading
+npm install --save @redcloudsteam/ui
 ```
 
 ## Getting Started
