@@ -5,7 +5,7 @@ const { externalGlobalPlugin } = pkg;
 const commonConfig: Options = {
   minify: true,
   dts: true,
-  format: ['cjs'],
+  format: ['esm', 'cjs'],
   sourcemap: true,
   clean: true
 };
