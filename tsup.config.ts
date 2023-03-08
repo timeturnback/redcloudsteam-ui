@@ -1,5 +1,6 @@
 import { defineConfig, Options } from 'tsup';
-import { externalGlobalPlugin } from 'esbuild-plugin-external-global';
+import pkg from 'esbuild-plugin-external-global';
+const { externalGlobalPlugin } = pkg;
 
 const commonConfig: Options = {
   minify: true,
