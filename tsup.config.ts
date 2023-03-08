@@ -11,7 +11,8 @@ export default defineConfig([
   {
     ...commonConfig,
     entry: ['src/index.ts'],
-    outDir: 'dist'
+    outDir: 'dist',
+    external: ['react']
     // Add this to fix Dynamic require of "react" is not supported
     // esbuildOptions(options) {
     //   options.external = ['@emotion/css', '@emotion/react', '@emotion/styled'];
