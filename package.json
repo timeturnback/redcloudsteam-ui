@@ -40,6 +40,9 @@
   "author": "Redclouds",
   "license": "MIT",
   "devDependencies": {
+    "@emotion/css": "^11.10.6",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
     "@babel/core": "^7.21.0",
     "@storybook/addon-actions": "^6.5.16",
     "@storybook/addon-essentials": "^6.5.16",
@@ -67,11 +70,7 @@
     "url": "https://github.com/timeturnback/@redcloudsteam/ui/issues"
   },
   "homepage": "https://github.com/timeturnback/@redcloudsteam/ui#readme",
-  "dependencies": {
-    "@emotion/css": "^11.10.6",
-    "@emotion/react": "^11.10.6",
-    "@emotion/styled": "^11.10.6"
-  },
+  "dependencies": {},
   "release-it": {
     "git": {
       "commitMessage": "chore: release ${version}",

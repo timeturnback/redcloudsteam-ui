@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import React from 'react';
+import React, { useState } from 'react';
 import { ComponentCard, SimpleTextInput, Text } from './base';
 import { Button } from './base/button';
 
@@ -11,10 +11,10 @@ const StyledContainer = styled.div`
   padding: 10px;
 `;
 export const DemoComponents = () => {
-  const [textInputValue, setTextInputValue] = React.useState<string>('');
-  const [selectOption, setSelectOption] = React.useState<string>('');
-  const [tagSelectOption, setTagSelectOption] = React.useState<string>('');
-  const [checkboxValue, setCheckboxValue] = React.useState<boolean>(false);
+  const [textInputValue, setTextInputValue] = useState<string>('');
+  // const [selectOption, setSelectOption] = React.useState<string>('');
+  // const [tagSelectOption, setTagSelectOption] = React.useState<string>('');
+  // const [checkboxValue, setCheckboxValue] = React.useState<boolean>(false);
 
   return (
     <StyledContainer>
