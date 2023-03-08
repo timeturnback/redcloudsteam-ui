@@ -6063,6 +6063,11 @@ esbuild-openbsd-64@0.15.18:
   resolved "https://registry.yarnpkg.com/esbuild-openbsd-64/-/esbuild-openbsd-64-0.15.18.tgz#79591a90aa3b03e4863f93beec0d2bab2853d0a8"
   integrity sha512-yK5NCcH31Uae076AyQAXeJzt/vxIo9+omZRKj1pauhk3ITuADzuOx5N2fdHrAKPxN+zH3w96uFKlY7yIn490xQ==
 
+esbuild-plugin-external-global@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/esbuild-plugin-external-global/-/esbuild-plugin-external-global-1.0.1.tgz#e3bba0e3a561f61b395bec0984a90ed0de06c4ce"
+  integrity sha512-NDzYHRoShpvLqNcrgV8ZQh61sMIFAry5KLTQV83BPG5iTXCCu7h72SCfJ97bW0GqtuqDD/1aqLbKinI/rNgUsg==
+
 esbuild-sunos-64@0.15.18:
   version "0.15.18"
   resolved "https://registry.yarnpkg.com/esbuild-sunos-64/-/esbuild-sunos-64-0.15.18.tgz#fd528aa5da5374b7e1e93d36ef9b07c3dfed2971"
