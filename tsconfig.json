@@ -1,6 +1,6 @@
 {
   // see https://www.typescriptlang.org/tsconfig to better understand tsconfigs
-  "include": ["src", "types"], // "test"
+  "include": ["./src/**/*"], // "test"
   "compilerOptions": {
     "baseUrl": "./",
 
@@ -30,10 +30,7 @@
     "skipLibCheck": true,
     // error out if import and file system have a casing mismatch. Recommended by TS
     "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-
-    "paths": {
-      "@redcloudsteam/ui": ["./src/index"]
-    }
+    // "noEmit": true,
+    "outDir": "./dist"
   }
 }
