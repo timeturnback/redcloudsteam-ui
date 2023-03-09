@@ -3,7 +3,6 @@
   "version": "1.0.11",
   "description": "Global loading screen for React",
   "main": "dist/index.js",
-  "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
   "exports": {
     "./package.json": "./package.json",
@@ -19,10 +18,10 @@
   ],
   "scripts": {
     "dev": "tsup --watch",
-    "build": "rollup -c",
+    "build": "tsup",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "prepack": "yarn build",
+    "prepack": "tsup",
     "release": "release-it"
   },
   "repository": {
@@ -45,9 +44,6 @@
     "@emotion/css": "^11.10.6",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
-    "@rollup/plugin-commonjs": "^15.0.0",
-    "@rollup/plugin-node-resolve": "^9.0.0",
-    "@rollup/plugin-typescript": "^11.0.0",
     "@storybook/addon-actions": "^6.5.16",
     "@storybook/addon-essentials": "^6.5.16",
     "@storybook/addon-interactions": "^6.5.16",
@@ -64,9 +60,6 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "release-it": "^15.7.0",
-    "rollup": "^2.26.0",
-    "rollup-plugin-babel": "^4.4.0",
-    "rollup-plugin-terser": "^7.0.0",
     "tsup": "^6.5.0",
     "typescript": "^4.5.2"
   },

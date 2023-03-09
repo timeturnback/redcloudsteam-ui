@@ -3,7 +3,6 @@
   "include": ["src", "types"], // "test"
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./dist",
 
     "module": "esnext",
     // "types": ["jest", "@testing-library/jest-dom"],

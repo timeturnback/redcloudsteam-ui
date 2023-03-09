@@ -13,10 +13,13 @@ export default defineConfig([
   {
     ...commonConfig,
     entry: ['src/index.ts'],
-    outDir: 'dist'
+    outDir: 'dist',
     // Add this to fix Dynamic require of "react" is not supported
-    // esbuildOptions(options) {
-    //   options.external = ['@emotion/css', '@emotion/react', '@emotion/styled'];
-    // }
+    esbuildOptions(options) {
+      options.external = ['@emotion/*'];
+      // options.banner = {
+      //   js: "import { createRequire } from 'module'; const require = createRequire(import.meta.url);"
+      // };
+    }
   }
 ]);
