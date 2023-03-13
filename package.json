@@ -5,14 +5,6 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "typings": "dist/esm/index.d.ts",
-  "exports": {
-    "./package.json": "./package.json",
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js"
-    }
-  },
   "files": [
     "umd",
     "cjs",
@@ -21,7 +13,7 @@
   ],
   "scripts": {
     "dev": "tsup --watch",
-    "build-esm": "rimraf esm && tsc",
+    "build-esm": "rimraf esm && tsc --outDir dist/esm",
     "build-cjs": "rimraf cjs && tsc --module commonjs --outDir dist/cjs",
     "build-umd": "rimraf umd && rollup -c",
     "build": "yarn build-esm && yarn build-cjs && yarn build-umd",
