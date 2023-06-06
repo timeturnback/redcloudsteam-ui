@@ -33,7 +33,6 @@ const TextInput = styled.input`
   min-width: 0;
   flex: 1;
   background-color: transparent;
-  color: white;
   outline: none;
   font-size: 14px;
   &::placeholder {
@@ -45,7 +44,6 @@ const TextArea = styled.textarea`
   min-width: 0;
   flex: 1;
   background-color: transparent;
-  color: white;
   outline: none;
   font-size: 14px;
   &::placeholder {
